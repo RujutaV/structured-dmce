@@ -10,33 +10,35 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <meta charset="utf-8">
 
-<link rel="stylesheet" href="../admission.css">
+<link rel="stylesheet" href="css/admission.css">
+<link rel="stylesheet" href="css/nav.css">
+<link rel="stylesheet" href="css/footer.css">
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 
-<script src="../../assets/js/main.js"></script>
-<link rel="stylesheet" href="../../assets/css/bog.css">
+<script src="js/pdf.js"></script>
+<!-- <link rel="stylesheet" href="../../assets/css/bog.css"> -->
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
   <script> 
     $(function(){
-      $("#navbar1").load("/navbar_and_footer/nav.html"); 
+      $("#navbar1").load("nav.html"); 
     });
     </script> 
     <div id="navbar1"></div>
-    <script src="/navbar_and_footer/footer-jquery.js"></script> 
     
-  <hr style="border-bottom:2px solid rgba(20, 131, 196, 0.9); margin-top: 6%;">
+    
+  
 
     
     <div class="department-nav">
       <ul>
         <li><a href="post_graduation_ME.html">About</a></li>
         <li class="active"><a href="#">Details</a></li>
-        <li><a href="fees.html">Fees</a></li>
+        <li><a href="pgfees.html">Fees</a></li>
       </ul>
     </div>
   <!--page style 2-->
@@ -65,19 +67,19 @@
   <div class="tab-content cotainer">
     <div class="tab-pane active" id="an">
       <br>
-          <embed  style="border:10px solid rgb(240, 239, 239); border-radius: 5px;" src="../../assets/files/admissions/Admission Notice for PG.pdf#toolbar=0" width="100%" height="1150px"/>
+          <embed  style="border:10px solid rgb(240, 239, 239); border-radius: 5px;" src="files/admissions/Admission Notice for PG.pdf#toolbar=0" width="100%" height="1150px"/>
           <br>
     </div>
 
     <div class="tab-pane" id="ibb">
       <br>
-          <embed  style="border:10px solid rgb(240, 239, 239); border-radius: 5px;" src="../../assets/files/admissions/Information Brochure-PG (1).pdf#toolbar=0" width="100%" height="1150px"/>
+          <embed  style="border:10px solid rgb(240, 239, 239); border-radius: 5px;" src="files/admissions/Information Brochure-PG (1).pdf#toolbar=0" width="100%" height="1150px"/>
           <br>
     </div>
 
     <div class="tab-pane" id="drr">
       <br>
-          <embed  style="border:10px solid rgb(240, 239, 239); border-radius: 5px;" src="../../assets/files/admissions/Documents Required for PG (1).pdf#toolbar=0" width="100%" height="1150px"/>
+          <embed  style="border:10px solid rgb(240, 239, 239); border-radius: 5px;" src="files/admissions/Documents Required for PG (1).pdf#toolbar=0" width="100%" height="1150px"/>
           <br>
     </div>
 
@@ -87,10 +89,10 @@
 
   <!--page style 2 end-->
 
-  <script src="/navbar_and_footer/footer-jquery.js"></script> 
+  
   <script> 
   $(function(){
-    $("#footer1").load("../../navbar_and_footer/footer.html"); 
+    $("#footer1").load("footer.html"); 
   });
   </script> 
 

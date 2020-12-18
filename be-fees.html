@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,8 +28,9 @@
       crossorigin="anonymous"
     ></script>
     <!-- CSS -->
-    <link rel="stylesheet" href="/addmission/admission.css" />
-    <link href="/navbar_and_footer/footer-css.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/admission.css" />
+    <link href="css/footer.css" rel="stylesheet" /> 
+    <link href="css/nav.css" rel="stylesheet" /> 
     <!-- FONTS -->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,200;1,500&family=Roboto:wght@100&display=swap"
@@ -37,21 +38,22 @@
     />
   </head>
   <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script> 
       $(function(){
-        $("#navbar1").load("/navbar_and_footer/nav.html"); 
+        $("#navbar1").load("nav.html"); 
       });
       </script> 
       <div id="navbar1"></div>
-      <script src="/navbar_and_footer/footer-jquery.js"></script> 
       
-    <hr class="divider">
+      
+    
    
     <div class="department-nav">
       <ul>
         <li><a href="under_graduation_BE.html">About</a></li>
-        <li><a href="details.html">Details</a></li>
-        <li><a href="Miscellaneous.html">Miscellaneous</a></li>
+        <li><a href="be-details.html">Details</a></li>
+        <li><a href="be-Miscellaneous.html">Miscellaneous</a></li>
         <li class="active"><a href="#">Fees</a></li>
       </ul>
     </div>
@@ -202,10 +204,10 @@
         other than public holidays) <br>Time10.00 a.m. to 6.00 p.m.
       </p>
     </div>
-    <script src="/navbar_and_footer/footer-jquery.js"></script> 
+    
     <script> 
     $(function(){
-      $("#footer1").load("../../navbar_and_footer/footer.html"); 
+      $("#footer1").load("footer.html"); 
     });
     </script> 
 

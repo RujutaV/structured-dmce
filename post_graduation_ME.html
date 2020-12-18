@@ -26,31 +26,32 @@
       crossorigin="anonymous"
     ></script>
     <!-- CSS -->
-    <link rel="stylesheet" href="/addmission/admission.css" >
-    <link href="/navbar_and_footer/footer-css.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/admission.css" >
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
     <!-- FONTS -->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,200;1,500&family=Roboto:wght@100&display=swap"
       rel="stylesheet"
     />
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
     <script> 
       $(function(){
-        $("#navbar1").load("/navbar_and_footer/nav.html"); 
+        $("#navbar1").load("nav.html"); 
       });
       </script> 
       <div id="navbar1"></div>
-      <script src="/navbar_and_footer/footer-jquery.js"></script> 
       
-    <hr class="divider">
+      
+    
    
     <div class="department-nav">
         <ul> 
           <li class="active"><a href="#">About</a></li>
           <li><a href="pgdetails.html">Details</a></li>
-          <li><a href="fees.html">Fees</a></li>
+          <li><a href="pgfees.html">Fees</a></li>
         </ul>
         </div>
     <h1 style="text-align: center;">Post Graduation</h1>
@@ -115,10 +116,10 @@
       </table>
       
       </div>
-      <script src="/navbar_and_footer/footer-jquery.js"></script> 
+      
     <script> 
     $(function(){
-      $("#footer1").load("../../navbar_and_footer/footer.html"); 
+      $("#footer1").load("footer.html"); 
     });
     </script> 
 
