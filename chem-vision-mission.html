@@ -7,17 +7,17 @@
   <title>Datta Meghe College of Engineering</title>
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
-  <link href="../theme/icofont/icofont.min.css" rel="stylesheet">
-  <link href="../theme/css/department-css.css" rel="stylesheet">
-  <link href="/navbar_and_footer/footer-css.css" rel="stylesheet">
+  <link href="icofont/icofont.min.css" rel="stylesheet">
+  <link href="css/department-css.css" rel="stylesheet">
+  <link href="footer-css.css" rel="stylesheet">
   </head>
 
 <body>
   <!-- NAVBAR-->
-<script src="/navbar_and_footer/footer-jquery.js"></script> 
+<script src="footer-jquery.js"></script> 
 <script> 
 $(function(){
-  $("#navbar1").load("/navbar_and_footer/nav.html"); 
+  $("#navbar1").load("nav.html"); 
 });
 </script> 
 <div id="navbar1"></div>
@@ -37,12 +37,13 @@ $(function(){
     <!-- DEPARTMENT NAVBAR -->
   <div class="department-nav">
   <ul> 
-    <li><a href="chem.html">Chemical Department</a></li>
-    <li><a href="hod_message.html">HOD's Message</a></li>
-    <li class="active"><a href="#">Vision and Mission</a></li>
-    <li><a href="faculty.html">Faculty</a></li>
-    <li><a href="achievements.html">Events and Achievements</a></li>
-  </ul>
+    <ul> 
+      <li><a href="chem.html">Chemical Department</a></li>
+      <li ><a href="#">HOD's Message</a></li>
+      <li class="active"><a href="chem-vision-mission.html">Vision and Mission</a></li>
+      <li><a href="chem-faculty.html">Faculty</a></li>
+      <li><a href="chem-achievements.html">Events and Achievements</a></li>
+    </ul>
   </div>
 <!-- CONTENT -->
   <h1>Vision</h1>
@@ -63,17 +64,17 @@ $(function(){
 </div>
 
 <!-- FOOTER FROM ROOT -->
-<script src="/navbar_and_footer/footer-jquery.js"></script> 
+<script src="footer-jquery.js"></script> 
 <script> 
 $(function(){
-  $("#footer1").load("/navbar_and_footer/footer.html"); 
+  $("#footer1").load("footer.html"); 
 });
 </script> 
 
 
 <div id="footer1"></div>
   
-  <script src="../theme/js/deparrtment-js.js"></script>
+  <script src="js/deparrtment-js.js"></script>
   <script src="jquery.min.js"></script>
 
 </body>
