@@ -1,14 +1,14 @@
-html{
+html {
     scroll-behavior: smooth;
     /* --primaryColor: rgba(0, 108, 196, 0.9); */
     --primaryColor: rgba(20, 131, 196, 0.9);
     --contentTextColor: rgb(88, 89, 100);
-    --headerColor: rgba(59, 59, 59,0.9);
-    --backgroundColor:rgba(88, 89, 100, 0.06);
-    --lightPrimaryColor:rgb(25, 171, 255);
+    --headerColor: rgba(59, 59, 59, 0.9);
+    --backgroundColor: rgba(88, 89, 100, 0.06);
+    --lightPrimaryColor: rgb(25, 171, 255);
     --darkblue: rgb(42, 42, 61);
     font-family: "Montserrat", sans-serif;
-  }
+}
 
 
 
@@ -68,15 +68,15 @@ html{
 
 
 
-.card1{
+.card1 {
     overflow: hidden;
 }
 
-.card1{
+.card1 {
     transition: all 1s ease;
 }
 
-.card1:hover{
+.card1:hover {
     transform: scale(1.1);
 }
 
@@ -136,36 +136,40 @@ html{
 
 /*bog president message*/
 .testimonial-box {
-	padding-left: 160px;
-	position: relative;
-	margin-top: 30px;
-	min-height: 115px;
+    padding-left: 160px;
+    position: relative;
+    margin-top: 30px;
+    min-height: 115px;
 }
+
 .testimonial-box img {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 240px;
-	height: 240px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 240px;
+    height: 240px;
     border-radius: 50%;
     border: 10px solid #f0f0f0;
 }
+
 .testimonial-description {
-	background: #f0f0f0;
-	padding: 30px;
-	border-radius: 20px;
-	position: relative;
+    background: #f0f0f0;
+    padding: 30px;
+    border-radius: 20px;
+    position: relative;
 }
+
 .testimonial-description::after {
-	content: "";
-	display: block;
-	border-top: 10px solid transparent;
-	border-bottom: 10px solid transparent;
-	border-right: 15px solid #f0f0f0;
-	position: absolute;
-	top: 35px;
-	left: -14px;
+    content: "";
+    display: block;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 15px solid #f0f0f0;
+    position: absolute;
+    top: 35px;
+    left: -14px;
 }
+
 /*end of bog president message*/
 
 
@@ -174,10 +178,11 @@ html{
 .table-bordered {
     border-radius: 40px;
 }
+
 .table td,
 .table th {
-  padding: 10px;
-  text-align: center;
+    padding: 10px;
+    text-align: center;
 }
 
 
@@ -210,18 +215,14 @@ a:hover {
   }
 
   */
-  
-  ::-webkit-scrollbar {
+
+::-webkit-scrollbar {
     display: none;
 }
 
 
 /* DIVIDER */
-.dep-divider{
-    
-    border-top:2.5px solid var(--primaryColor);
-  }
-  
+
 
 
 
@@ -237,9 +238,9 @@ a:hover {
     font-weight: 600;
     position: relative;
     padding-bottom: 15px;
-  }
-  
-  .section-header h2::before {
+}
+
+.section-header h2::before {
     content: '';
     position: absolute;
     display: block;
@@ -248,9 +249,9 @@ a:hover {
     background: #ddd;
     bottom: 1px;
     left: calc(50% - 60px);
-  }
-  
-  .section-header h2::after {
+}
+
+.section-header h2::after {
     content: '';
     position: absolute;
     display: block;
@@ -259,16 +260,16 @@ a:hover {
     background: rgb(25, 171, 255);
     bottom: 0;
     left: calc(50% - 20px);
-  }
-  
-  .section-header p {
+}
+
+.section-header p {
     text-align: center;
     padding-bottom: 30px;
     color: #333;
-  }
-  
-  
-  /*slide up animation
+}
+
+
+/*slide up animation
 
   .inner >h5,h1{
       animation: slide_up 1.4s ease;
@@ -294,7 +295,7 @@ a:hover {
     */
 
 embed {
-    border:10px solid rgb(240, 239, 239); 
+    border: 10px solid rgb(240, 239, 239);
     border-radius: 5px;
 
 }

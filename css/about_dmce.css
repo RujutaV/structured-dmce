@@ -7,13 +7,12 @@ html {
   --lightPrimaryColor: rgb(25, 171, 255);
 }
 
-h1 {
-  padding: 1% 10%;
-  padding-left: 10.5%;
-  padding-top: 2%;
+.header {
+
   font-weight: 400;
+  
   text-align: center;
-  font-family: "Montserrat Semi-bold 600", sans-serif;
+  
 
 }
 
@@ -77,7 +76,7 @@ img {
 
 /* AMMENITIES */
 .amenity-page{
-  font-family: "Montserrat Semi-bold 600", sans-serif;
+ 
   /* font-family: "Roboto Semi-bold 600", sans-serif; */
   font-size: 12px;
  overflow-x: hidden;
