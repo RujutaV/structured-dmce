@@ -1,0 +1,234 @@
+
+html{
+  /* --primaryColor: rgba(0, 108, 196, 0.9); */
+  --primaryColor: rgba(20, 131, 196, 0.9);
+  --contentTextColor: rgb(88, 89, 100);
+  --headerColor: rgba(59, 59, 59,0.9);
+  --backgroundColor:rgba(88, 89, 100, 0.06);
+  --lightPrimaryColor:rgb(25, 171, 255);
+}
+h1,h2,h3,h4{margin: 0 0;
+padding:0 0;}
+
+h3{
+  text-align: center;
+}
+
+.content-container::before{
+  content: '';
+  background-image: url(logo1.png);
+  position:absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  opacity: 0.07;
+  left: 0;  
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  padding: 1% 0;
+}
+
+.content-container{
+  /* background-color: #e1e4e7; */
+  color: var(--contentTextColor);
+  margin-top: 1em;
+  text-align: justify;
+  line-break: auto;
+  line-height: 1.5em;
+  font-size: 1.2em;
+  padding: 1% 0;
+}
+
+.content-container-second{
+  /* background-color: #e1e4e7; */
+  text-align: justify;
+  line-break: auto;
+  line-height: 1.5em;
+  color:var(--contentTextColor);
+  font-size: 1.2em;
+  padding: 1% 0;
+}
+
+a{
+  text-decoration: none;
+}
+h1{
+  font-weight: 400;
+  margin-bottom: 1%;
+  text-align: center;
+  color:  var(--contentTextColor);
+  font-size: 2.5em;
+}
+body{  
+  font-family: "Montserrat", "Roboto Semi-bold 600",sans-serif;           
+  display: block;
+  position: absolute;
+  height:100%;
+  width:100%;
+  margin: 0 0;
+  background-color: white;
+}
+a{
+  color: var(--lightPrimaryColor);
+  text-decoration: none;
+}
+
+/* DEPARTMENT NAVBAR */
+.department-nav{
+  padding-bottom: 2%;
+  margin:2% 0;
+  
+  
+}
+
+.department-nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0 0;
+  margin: 0 0;
+  background-color:var(--headerColor);
+  
+}
+
+
+.department-nav ul li {
+  
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+.department-nav ul li:last-child {
+  border-right: none;
+  
+}
+.department-nav ul li a {
+  display: block;
+  color: #fff;
+  font-weight: 400;
+  
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: justify;
+}
+
+/* Change the link color to #111 (black) on hover */
+.department-nav li a:hover {
+  background-color: var(--primaryColor);
+}
+
+.department-nav .active{
+  background-color:var(--primaryColor);
+}
+@media only screen and (max-width:1264px){
+  
+  .department-nav ul li {
+    float: none;
+    border-right:none;
+  }
+  .department-nav ul li a {text-align: center;}
+  
+}
+
+
+/* Sections Header
+--------------------------------*/
+.section-header h3 {
+  padding: 30px;
+  font-size: 24px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.section-header h3::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-header h3::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #667eea;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-header p {
+  text-align: center;
+  padding-bottom: 30px;
+  color: #333;
+}
+
+/*stats*/
+
+    .horizontal-bar-chart { 
+      float: left; 
+      width: 100%;
+    }
+
+    .horizontal-bar-chart li { 
+      position: relative;
+      display: block;  
+      _zoom: 1;
+      height: 2em;
+      margin-bottom: .2em;
+      background: #ebebeb; 
+    }
+
+    .horizontal-bar-chart p { 
+      color: #666666;
+      position: relative;
+      display: block;  
+      _zoom: 1;
+      margin: 0 0 .9em 0;
+      text-indent: .6em;
+    }
+
+
+    .horizontal-bar-chart .name { 
+      display: block; 
+      position: absolute; 
+      top: 0; 
+      right: 0; 
+      margin: 0 1em; 
+      text-align: right; 
+      color: #999; 
+      font-weight: bold; 
+      font-size: 0.875em; 
+      line-height: 2em; 
+      text-shadow: 1px 1px 0px #e8e8e8;
+    }
+
+    .horizontal-bar-chart .index { 
+      display: block; 
+      position: absolute; 
+      top: 0; 
+      left: 0; 
+      height: 100%; 
+      text-indent: .6em;
+      font-size: 0.875em;
+      font-weight: bold;
+      color: #ffffff;
+      background: /*#af1e23*/ #0F3455;
+      line-height: 2.2em;
+      text-shadow: 1px 1px 0px #595959;
+    }
+
+   .chart-container .source {
+      font-size: .8em;
+      padding-top: 4.5em;
+      text-align: center;
+}

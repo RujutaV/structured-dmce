@@ -1,0 +1,73 @@
+html {
+  
+  --primaryColor: rgba(20, 131, 196, 0.9);
+  --contentTextColor: rgb(88, 89, 100);
+  --headerColor: rgba(59, 59, 59,0.9);
+  --backgroundColor:rgba(88, 89, 100, 0.06);
+  --lightPrimaryColor:rgb(25, 171, 255);
+}
+h1 {
+  padding: 1% 10%;
+  padding-left: 10.5%;
+  padding-top: 2%;
+  font-weight: 400;
+  text-align: center;
+  font-family: "Montserrat Semi-bold 600", sans-serif;
+  
+}
+
+.content-container {
+  
+  margin: 0 8%;
+  padding: 1% 2%;
+  font-size: 19px;
+  padding-left: 2.5%;
+  line-height: 1.5emf;
+  min-height: 100%;
+}
+
+.content-container::before {
+  content: "";
+  background-image: url(../images/logo1.png);
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  opacity: 0.07;
+  top: 15%;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  
+  color: rgb(88, 89, 100);
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat Regular-300", sans-serif;
+  
+  font-size: 30px;
+}
+
+.breadcrumb {
+  background-color: transparent;
+  font-size: 20px;
+}
+@media only screen and (max-width:681px){
+  img{
+    
+    float: none !important;
+    margin:0 0;
+  }
+}
+img { 
+  float: right; 
+  padding-left: 15px; 
+  
+  width: 350px;
+  height: 400px;
+} 

@@ -1,0 +1,48 @@
+html {
+  --primaryColor: #0e4d92;
+}
+h1,
+h2 {
+  padding: 1% 10%;
+  padding-left: 10.5%;
+  padding-top: 2%;
+  font-weight: 400;
+  font-family: "Montserrat Semi-bold 600", sans-serif;
+  font-family: "Roboto Semi-bold 600", sans-serif;
+}
+
+.content-container {
+  /* background-color: #e1e4e7; */
+  margin: 0 8%;
+  padding: 1% 2%;
+  font-size: 19px;
+  padding-left: 2.5%;
+  line-height: 1.5emf;
+  min-height: 40%;
+}
+
+.content-container::before {
+  content: "";
+  background-image: url(logo1.png);
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  opacity: 0.07;
+  top: 20%;
+  left: 0;
+  z-index: -1;
+  height: 90%;
+  width: 100%;
+}
+
+body {
+  color: rgb(88, 89, 100);
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat Regular-300", sans-serif;
+  font-family: "Roboto Regular-300", sans-serif;
+  min-height: 80%;
+}
