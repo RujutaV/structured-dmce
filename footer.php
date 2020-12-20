@@ -13,13 +13,13 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="landing_page/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="landing_page/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="icofont/icofont.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="landing_page/footer.css" rel="stylesheet">
-  <link href="/bootstrap/bootstrap.min.css" rel="stylesheet">
-  <link href="/bootstrap/bootstrap.min.js" rel="stylesheet">
+  <link href="css/footer.css" rel="stylesheet">
+  <!--link href="/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="/bootstrap/bootstrap.min.js" rel="stylesheet"-->
 
 
 
@@ -30,7 +30,8 @@
 <!-- Optional theme -->
 
 <meta charset="utf-8">
-
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 <body>
 
  <footer id="footer">
@@ -104,13 +105,13 @@
     </div>
   </footer>
 
-      <script src="landing_page/assets/vendor/js/vendor.bundle.base.js"></script>
+      <!--script src="js/vendor.bundle.base.js"></script>
    
-    <!-- End custom js for this page-->
+    End custom js for this page-->
   
 
   <!-- JS File -->
-  <script src="landing_page/assets/js/main.js"></script>
+  <script src="js/dist/main.dev.js"></script>
 
 </body>
 

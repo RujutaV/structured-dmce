@@ -7,7 +7,6 @@ html {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
-  font-size: 16px;
 }
 html {
   overflow: scroll;
@@ -90,10 +89,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
-@media only screen and (max-width: 500px) {
-  html{
-    font-size: 25px;
-  }
+@media (max-height: 500px) {
   #intro {
     height: 150vh;
   }
@@ -131,19 +127,18 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .container {
   text-align: center;
-  
 }
 
 #intro h2 {
   color: #fff;
   margin-bottom: 30px;
-  font-size: 3em;
+  font-size: 48px;
   font-weight: 700;
 }
 
 @media (max-width: 768px) {
   #intro h2 {
-    font-size: 1.75em;
+    font-size: 28px;
   }
 }
 
@@ -153,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   #intro p {
     width: 60%;
   }
@@ -200,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .carousel-control-next-icon, #intro .carousel-control-prev-icon {
   background: none;
-  font-size: 2em;
+  font-size: 32px;
   line-height: 1;
 }
 
@@ -211,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
 #intro .btn-get-started {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 32px;
@@ -233,135 +228,135 @@ h1, h2, h3, h4, h5, h6 {
 
 /*popular events*/
 .post-slide{
-  margin: 10px 15px;
-  background: #fff;
-  border-bottom: 1px solid #dedde1;
+    margin: 10px 15px;
+    background: #fff;
+    border-bottom: 1px solid #dedde1;
 }
 .demo
 {
-padding: 10px 0;
+  padding: 10px 0;
 }
 .heading-title
 {
-margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .post-slide .post-header{
-  padding: 15px 20px;
+    padding: 15px 20px;
 }
 
 .post-slide .title{
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .post-slide .title a{
-  font-size: 15px;
-  color: #333;
-  font-weight: bold;
-  text-transform: uppercase;
-  transition: all 0.4s ease 0s;
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
 }
 
 .post-slide .post-bar{
-  margin: 15px 0 0 0;
-  padding: 0;
-  list-style: none;
+    margin: 15px 0 0 0;
+    padding: 0;
+    list-style: none;
 }
 
 .post-slide .post-bar li{
-  display: inline-block;
-  margin-right: 20px;
-  color: #808080;
+    display: inline-block;
+    margin-right: 20px;
+    color: #808080;
 }
 
 .post-slide .post-bar li a{
-  font-size: 15px;
-  color: #808080;
-  text-transform: capitalize;
+    font-size: 15px;
+    color: #808080;
+    text-transform: capitalize;
 }
 
 
 .post-slide .post-bar li img{
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
 }
 
 .post-slide .post-bar li i,
 .post-slide .post-bar li img{
-  margin-right: 5px;
+    margin-right: 5px;
 }
 
 .post-slide .pic{
-  overflow: hidden;
-  position: relative;
+    overflow: hidden;
+    position: relative;
 }
 
 .post-slide .pic:after{
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: rgba(255,255,255,0);
-  transition: all 0.9s ease 0s;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255,255,255,0);
+    transition: all 0.9s ease 0s;
 }
 
 .post-slide:hover .pic:after{
-  background: rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.2);
 }
 
 .post-slide .pic img{
-  width: 100%;
-  height: auto;
-  transform: rotate(0deg) scale(1,1);
-  transition: all 0.6s ease-in-out 0s;
+    width: 100%;
+    height: auto;
+    transform: rotate(0deg) scale(1,1);
+    transition: all 0.6s ease-in-out 0s;
 }
 
 .post-slide .post-category{
-  padding: 5px 15px;
-  margin: 0;
-  list-style: none;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background: #fd6058;
-  z-index: 1;
+    padding: 5px 15px;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #fd6058;
+    z-index: 1;
 }
 
 .post-slide .post-category li{
-  display: inline-block;
-  text-transform: uppercase;
+    display: inline-block;
+    text-transform: uppercase;
 }
 
 .post-slide .post-category li:after{
-  content: " ,";
-  color: #fff;
+    content: " ,";
+    color: #fff;
 }
 
 .post-slide .post-category li:last-child:after{
-  content: "";
+    content: "";
 }
 
 .post-slide .post-category li a{
-  color: #fff;
+    color: #fff;
 }
 
 .post-slide .post-category li a:hover{
-  text-decoration: none;
-  color: #333;
+    text-decoration: none;
+    color: #333;
 }
 
 .post-slide .post-description{
-  font-size: 76px;
-  color: #808080;
-  padding: 15px;
+    font-size: 76px;
+    color: #808080;
+    padding: 15px;
 }
 
 @media only screen and (max-width: 480px) {
-  .post-header .post-bar li{
-      margin-right: 5px;
-  }
+    .post-header .post-bar li{
+        margin-right: 5px;
+    }
 }
 
 
@@ -378,7 +373,8 @@ margin-bottom: 10px;
 .table-responsive:hover{border-color:var(--lightPrimaryColor);}
 
 table{width:100%;}
-td{padding:10px; background:#fff;}
+td{padding:24px; background:#fff;}
+
 
 
 /*upcomin events*/
@@ -388,7 +384,6 @@ td{padding:10px; background:#fff;}
   margin: 0 auto;
   max-height: 500px;
   overflow: scroll;
-  overflow-x: auto;
 }
 
 .event-container h3.year {
@@ -443,7 +438,6 @@ td{padding:10px; background:#fff;}
 }
 
 .event .event-right .event-timing {
-  background: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -479,7 +473,6 @@ td{padding:10px; background:#fff;}
     padding: 10px 0;
   }
 }
-
 /*about*/
 
 .subheading {
@@ -502,7 +495,7 @@ td{padding:10px; background:#fff;}
 --------------------------------*/
 .section-header h3 {
   padding: 30px;
-  font-size: 1.5em;
+  font-size: 24px;
   color: #111;
   text-transform: uppercase;
   text-align: center;

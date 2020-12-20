@@ -1,36 +1,33 @@
-<?php
-   include_once 'nav_landing.php';
+<?php 
+	include_once 'nav_landing.php';
 ?>
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-  <link href="style.css" rel="stylesheet">
+ 
+  <link href="css/style.css" rel="stylesheet">
     <!-- endinject -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ 
   <title>Datta Meghe College of Engineering</title>
-  <link rel="icon" type="image/x-icon" href="landing_page/assets/img/logo1.png" />
+  <link rel="icon" type="image/x-icon" href="images/logo1.png" />
 
   <!-- FontFamily -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
   <!-- Vendor CSS Files -->
-  <!-- <link href="landing_page/assets/vendor/icofont/icofont.min.css" rel="stylesheet"> -->
-  <link href="landing_page/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="icofont/icofont.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
     
 
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-
-
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-
-
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
 <!-- Optional theme -->
-<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <meta charset="utf-8">
 
@@ -48,16 +45,17 @@ $(document).ready(function() {
   });</script>
 
 
+<body>
 
-<body style="background-color:white;">
-  <!--script src="/navbar_and_footer/footer-jquery.js"></script> 
-  <script> 
-    $(function(){
-      $("#navbar1").load("/navbar_and_footer/nav_landing.html"); 
-    });
-    </script> 
-    <div id="navbar1"></div>
-    
+
+
+  
+<!--script> 
+$(function(){
+  $("#navbar1").load("/navbar_and_footer/nav_landing.html"); 
+});
+</script> 
+<div id="navbar1"></div>
 
   <script src="/bootstrap/jquery-3.5.1.js"></script>  -->
   
@@ -76,8 +74,6 @@ $(document).ready(function() {
  '----------------'  '----------------'  '----------------'  '----------------' 
  -->
 <div id="navbar1"></div>
-
-
    <section id="intro">
     <div class="intro-container">
       <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
@@ -86,7 +82,7 @@ $(document).ready(function() {
 
         <div class="carousel-inner" role="listbox">
 
-          <div class="carousel-item active" style="background-image: url(landing_page/assets/img/intro-carousel/1.jpg)">
+          <div class="carousel-item active" style="background-image: url(images/1.jpg)">
             <div class="image-overlay w-100 h-100 position-absolute"></div>
             <div class="carousel-container">
               <div class="container">
@@ -98,7 +94,7 @@ $(document).ready(function() {
             </div>
           </div>
 
-          <div class="carousel-item" style="background-image: url(landing_page/assets/img/intro-carousel/2.jpg)">
+          <div class="carousel-item" style="background-image: url(images/2.jpg);">
             <div class="carousel-container">
               <div class="container">
                 <!--<h2 class="animate__animated animate__fadeInDown">At vero eos et accusamus</h2>-->
@@ -108,7 +104,7 @@ $(document).ready(function() {
             </div>
           </div>
 
-          <div class="carousel-item" style="background-image: url(landing_page/assets/img/intro-carousel/3.jpg)">
+          <div class="carousel-item" style="background-image: url(images/3.jpg)">
             <div class="carousel-container">
               <div class="container">
                 <!--<h2 class="animate__animated animate__fadeInDown">Temporibus autem quibusdam</h2>-->
@@ -118,7 +114,7 @@ $(document).ready(function() {
             </div>
           </div>
 
-          <div class="carousel-item" style="background-image: url(landing_page/assets/img/intro-carousel/4.jpg)">
+          <div class="carousel-item" style="background-image: url(images/4.jpg)">
             <div class="carousel-container">
               <div class="container">
                 <!--<h2 class="animate__animated animate__fadeInDown">Nam libero tempore</h2>-->
@@ -128,7 +124,7 @@ $(document).ready(function() {
             </div>
           </div>
 
-          <div class="carousel-item" style="background-image: url(landing_page/assets/img/intro-carousel/5.jpg);">
+          <div class="carousel-item" style="background-image: url(images/5.jpg)">
             <div class="carousel-container">
               <div class="container">
                 <!--<h2 class="animate__animated animate__fadeInDown">Magnam aliquam quaerat</h2>-->
@@ -158,7 +154,7 @@ $(document).ready(function() {
 <!-- End Intro Section -->
 <div class="container">
   <div class="row">
-    <div class="col-sm-5 col-12">
+    <div class="col-sm-4 col-12">
       <header class="section-header">
         <h3>News and Updates</h3>
       </header>
@@ -202,22 +198,6 @@ $(document).ready(function() {
                     <h3 class="news-title"><a href="">" Fee Structure for SE/TE/BE students admitted from First Year(2020-21)"</a></h3> 
                   </div>
                 </div></td></tr> 
-                <!--tr><td><div class="news">
-                  <div class="news-right">
-                    <h3 class="news-title"><a href="">Title Here</a></h3> 
-                  </div>
-                </div></td></tr> 
-                <tr><td><div class="news">
-                  <div class="news-right">
-                    <h3 class="news-title"><a href="">Title Here</a></h3> 
-                  </div>
-                </div></td></tr> 
-                <tr><td><div class="news">
-                  <div class="news-right">
-                    <h3 class="news-title"><a href="">Title Here</a></h3> 
-                  </div>
-                </div></td></tr--> 
-              </tbody>
             </table>
           </div>
           <script type="text/javascript">
@@ -238,10 +218,10 @@ $el.hover(stop, anim);
 
 
         </div>
-    <div class="col-sm-2 col-12">
+    <div class="col-sm-4 col-12">
       
     </div>
-    <div class="col-sm-5 col-12">
+    <div class="col-sm-4 col-12">
       <header class="section-header">
         <h3>Upcoming Events</h3>
       </header>
@@ -250,16 +230,16 @@ $el.hover(stop, anim);
         <div class="event-left">
           <div class="event-date">
             <div class="date">08</div>
-            <div class="month">DEC</div>
+            <div class="month">Nov</div>
           </div>
         </div>
 
         <div class="event-right">
-          <h3 class="event-title">WEB DEVELOPMENT WORKSHOP</h3>
+          <h3 class="event-title">Some Title Here</h3>
 
           <div class="event-description">
-          Discover the basics of how web browsers work. 
-          Discover how to write solid HTML, CSS and Javascript code !!  
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
+            ratione.
           </div>
 
           <div class="event-timing">
@@ -277,11 +257,11 @@ $el.hover(stop, anim);
         </div>
 
         <div class="event-right">
-          <h3 class="event-title">ANDROID DEVELOPMENT WORKSHOP</h3>
+          <h3 class="event-title">Some Title Here</h3>
 
           <div class="event-description">
-          Discover the basics of hoW android work. 
-          Discover how to write solid code in react native and node.js !! 
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
+            ratione.
           </div>
 
           <div class="event-timing">
@@ -392,7 +372,7 @@ $el.hover(stop, anim);
               <div class="post-slide">
                   <div class="post-header">
                     <div class="pic">
-                      <img src="assets/img/intro-carousel/1.jpg" alt=""/>
+                      <img src="images/1.jpg" alt=""/>
                   </div>
 
                       <h4 class="title">
@@ -410,7 +390,7 @@ $el.hover(stop, anim);
               <div class="post-slide">
                   <div class="post-header">
                     <div class="pic">
-                      <img src="assets/img/intro-carousel/2.jpg" alt=""/>
+                      <img src="images/2.jpg" alt=""/>
                   </div>
                       <h4 class="title">
                           <a href="#">Event Heading</a>
@@ -427,7 +407,7 @@ $el.hover(stop, anim);
               <div class="post-slide">
                   <div class="post-header">
                     <div class="pic">
-                      <img src="assets/img/intro-carousel/3.jpg" alt=""/>
+                      <img src="images/3.jpg" alt=""/>
                   </div>
                       <h4 class="title">
                           <a href="#">Event Heading</a>
@@ -444,15 +424,15 @@ $el.hover(stop, anim);
               <div class="post-slide">
                   <div class="post-header">
                     <div class="pic">
-                      <img href="https://dmce.ac.in/newdmcewebsite/images/Elex2.jpg" alt=""/>
+                      <img src="images/4.jpg" alt=""/>
                   </div>
                       <h4 class="title">
-                          <a href="#">Project Prsentation</a>
+                          <a href="#">Event Heading</a>
                       </h4>
                       
                       <ul class="post-bar">
-                          <li><a href="#">Electronics</a></li>
-                          <li><i class="fa fa-calendar"></i>12 June 2019</li>
+                          <li><a href="#">Civil</a></li>
+                          <li><i class="fa fa-calendar"></i>12 June 2016</li>
                       </ul>
                   </div>
                  
@@ -466,7 +446,7 @@ $el.hover(stop, anim);
 <div class="continer">
 <section class="view">
 
-    <div class="row" >
+    <div class="row">
 
       <div class="col-md-6">
 
@@ -474,29 +454,28 @@ $el.hover(stop, anim);
           <header class="section-header">
           <h3>About DMCE</h3>
         </header>
-        <div class=container><h5><p>Established in 1988 at Airoli, Navi Mumbai, Datta Meghe College of Engineering touched many innumerable milestones with unlimited credentials and accomplishments. The institute is NAAC accredited, approved by AICTE New Delhi, and recognized by DTE & Govt. of Maharashtra, and one of the most reputed institutes affiliated to the University of Mumbai. The overall intake of the institute t UG, PG, and PhD levels is 837 students in varied branches like Civil, Civil and Infrastructure, Mechanical, Computer, IT, Chemical and Electronics Engineering. The institute nurtures more than 3000 students annually. Highly qualified and experienced faculty is the backbone of the institute, they represent on national Bodies like Bureau of Indian Standards, Indian Society of Technical Education, IIIE....</p></h5>
+          <h5 class="subheading font-weight"><p>Established in 1988 at Airoli, Navi Mumbai, Datta Meghe College of Engineering touched many innumerable milestones with unlimited credentials and accomplishments. The institute is NAAC accredited, approved by AICTE New Delhi, and recognized by DTE & Govt. of Maharashtra, and one of the most reputed institutes affiliated to the University of Mumbai. The overall intake of the institute t UG, PG, and PhD levels is 837 students in varied branches like Civil, Civil and Infrastructure, Mechanical, Computer, IT, Chemical and Electronics Engineering. The institute nurtures more than 3000 students annually. Highly qualified and experienced faculty is the backbone of the institute, they represent on national Bodies like Bureau of Indian Standards, Indian Society of Technical Education, IIIE....</p></h5>
           <div class="mr-auto">
         <button type="button" class="btn btn-lily btn-margin btn-rounded" style="margin-left: 280px;"><a href="" style="color: white;">Read More</a></button>
-         </div> </div>
+          </div>
         </div>
 
       </div>
 
       <div class="col-md-6">
-       <div class="container">
+
         <div class="view">
-          <center><img src="landing_page/assets/img/intro-carousel/1.jpg" class="img-fluid" alt="smaple age" style="height: 500px; width: 600px; margin-top: 50px; padding-top: 50px;"></center>
+          <center><img src="images/about_us.png" class="img-fluid" alt="smaple age" style="height: 500px; width: 600px; margin-top: 50px; padding-top: 50px;"></center>
           <div class="mask flex-center hm-gradient">
           </div>
         </div>
 
       </div>
-      </div>
 
     </div>
 
   </section>
-<br>
+
 
 
 
@@ -511,24 +490,21 @@ $el.hover(stop, anim);
       <div class="col-md-6">
 
         <div class="view">
-          <center><img src="landing_page/assets/img/principal.jpeg" class="img-fluid" alt="smaple age" style="height:400px ;margin-top: 50px; padding-top: 90px;"></center>
+          <center><img src="images/principal.jpeg" class="img-fluid" alt="smaple age" style="height:400px ;margin-top: 50px; padding-top: 90px;"></center>
           <div class="mask flex-center hm-gradient">
           </div>
         </div>
 
       </div>
 
-<br>
-<br>
+
       <div class="col-md-6">
 
         <div class="d-flex flex-column justify-content-center align-items-center h-100">
           <header class="section-header">
           <h3>Principal's Desk</h3>
         </header>
-<br>
-<br>
-         <div class="container"> <h5><p>
+          <h5 class="subheading font-weight"><p>
 
 The Endeavor of the institution over two and a half decades is to transform many of the young and bright learners into aspiring Engineers seeking challenging opportunities at global level. The institution has grown up in its intake capacity from under-graduate to post-graduate and further doctoral (Ph.D.) programs in various disciplines of Engineering education.
 We also nurture the intellectual growth of our students by providing knowledge as per the curriculum and beyond it, with the help of experienced faculty and experts from the industry. We are proud to produce the leaders in technology who serve the humanity through application and dissemination of knowledge along with the best Engineering practices.
@@ -536,8 +512,8 @@ We also nurture the intellectual growth of our students by providing knowledge a
 My best wishes to all the learners.
 </p></h5>
           <div class="mr-auto">
-				<button type="button" class="btn btn-lily btn-margin btn-rounded" style="margin-left: 280px;"><a href="" style="color: white;">Read More</a></button>
-         </div> </div>
+				<center><button type="button" class="btn btn-lily btn-margin btn-rounded"><a href="" style="color: white;">Read More</a></button></center>
+          </div>
         </div>
 
       </div>
@@ -556,34 +532,34 @@ My best wishes to all the learners.
     <div class="slider-track">
 	
       <div class="slide">
-        <img src="landing_page/assets/img/recruit/1.png">
+        <img src="images/1.png">
       </div>
       <div class="slide">
-        <img src="landing_page/assets/img/recruit/2.png">
+        <img src="images/2.png">
       </div>
       <div class="slide">
-        <img src="landing_page/assets/img/recruit/3.png">
+        <img src="images/3.png">
       </div>
       <div class="slide">
-        <img src="landing_page/assets/img/recruit/4.png">
+        <img src="images/4.png">
       </div>
       <div class="slide">
-        <img src="landing_page/assets/img/recruit/5.png">
+        <img src="images/5.png">
       </div>
       <div class="slide">
-        <img src="landing_page/assets/img/recruit/6.png">
+        <img src="images/6.png">
       </div>
       <div class="slide">
-        <img src="landing_page/assets/img/recruit/7.png">
+        <img src="images/7.png">
       </div>
       <div class="slide">
-        <img src="landing_page/assets/img/recruit/8.png">
+        <img src="images/8.png">
       </div>
       <div class="slide">
-        <img src="landing_page/assets/img/recruit/9.png">
+        <img src="images/9.png">
       </div>
       <div class="slide">
-        <img src="landing_page/assets/img/recruit/10.png">
+        <img src="images/10.png">
       </div>
       
     </div>
@@ -592,21 +568,14 @@ My best wishes to all the learners.
 	<br><br>
   <!-- JS Files -->
    <!-- inject:js -->
-   <script src="assets/vendor/js/vendor.bundle.basejs"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="js/vendor.bundle.base.js"></script>
+    <script src="js/dist/main.dev.js"></script>
   
-
+    
+  <!-- JS File -->
   <?php 
 	include_once 'footer.php';
 ?>
-  <!--script> 
-    $(function(){
-      $("#footer1").load("/navbar_and_footer/footer.html"); 
-    });
-    </script> 
-
-
-<div id="footer1"></div-->
 </body>
 
 </html>

@@ -2,11 +2,6 @@ html {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
-    --primaryColor: rgba(20, 131, 196, 0.9);
-    --contentTextColor: rgb(88, 89, 100);
-    --headerColor: rgba(59, 59, 59,0.9);
-    --backgroundColor:rgba(88, 89, 100, 0.06);
-    --lightPrimaryColor:rgb(25, 171, 255);
   }
   
   body {
@@ -65,7 +60,6 @@ html {
   
   #header .logo img {
     max-height: 60px;
-
   }
   
   .image-overlay {
@@ -73,9 +67,7 @@ html {
     left: 0;
     background: radial-gradient(90% 50%, rgba(19,31,54,0.00) 50%, #000000 100%);
   }
-    
-  
-  /* Desktop Navigation */
+   /* Desktop Navigation */
   .nav-menu ul {
     margin: 0;
     padding: 0;
@@ -139,15 +131,15 @@ html {
   }
   
   .nav-menu .drop-down ul a {
-    padding: 7px 20px;
+    padding: 10px 20px;
     font-size: 13px;
     text-transform: none;
     color: #333333;
   }
   
-  /* .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-    color: #667eea;
-  } */
+  .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+    /*color: #667eea;*/
+  }
   
   .nav-menu .drop-down > a:after {
     content: "\ea99";
@@ -188,25 +180,23 @@ html {
       content: "\ea9d";
     }
   }
-  
-  /* Mobile Navigation */
   .mobile-nav-toggle {
     position: fixed;
     right: 15px;
     top: 40px;
     z-index: 9998;
     border: 0;
-    background: none;
+    background-color:rgba(0, 0, 0, 0.4);
     font-size: 24px;
     transition: all 0.4s;
-    outline: none !important;
+    outline: none;
     line-height: 1;
     cursor: pointer;
     text-align: right;
   }
   
   .mobile-nav-toggle i {
-    color: white;
+    color: #fff;
   }
   
   .mobile-nav {
@@ -294,12 +284,5 @@ html {
   
   .mobile-nav-active .mobile-nav-toggle i {
     color: #fff;
-    border-color: black;
   }
-
-
-/*marquee*/
-#marquee a {
-  padding-left: 20px;
-  color: white;
-}
+   
