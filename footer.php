@@ -8,7 +8,6 @@
     <!-- endinject -->
  
   <title>Datta Meghe College of Engineering</title>
-  <link rel="icon" type="image/x-icon" href="logo.png" />
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
@@ -41,39 +40,30 @@
            <div class="col-lg-3 col-md-6 footer-links">
             <h4>Resources</h4>
             <ul>
-              <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-              </svg> <a href="#">Mumbai University</a></li>
-              <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-              </svg> <a href="#">A.I.C.T.E.</a></li>
-              <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-              </svg> <a href="#">DTE</a></li>
-              <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-              </svg> <a href="#">Shikshan Shulka Samiti & Pravesh Niyantran Samiti</a></li>
-              <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-              </svg> <a href="#">Mandatory Disclosure</a></li>
+              <li><a class="fa fa-chevron-right" style="font-size:small;"></a>
+             <a href="#">Mumbai University</a></li>
+              <li> <a class="fa fa-chevron-right" style="font-size:small;"></a>
+              <a href="#">A.I.C.T.E.</a></li>
+              <li><a class="fa fa-chevron-right" style="font-size:small;"></a>
+               <a href="#">DTE</a></li>
+              <li><a class="fa fa-chevron-right" style="font-size:small;"></a>
+               <a href="#">Shikshan Shulka Samiti & Pravesh Niyantran Samiti</a></li>
+              <li><a class="fa fa-chevron-right" style="font-size:small;"></a>
+               <a href="#">Mandatory Disclosure</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Usefull Links</h4>
             <ul>
-              <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-              </svg> <a href="#">Home</a></li>
-              <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-              </svg> <a href="#">About us</a></li>
-              <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-              </svg> <a href="#">Training & Placement</a></li>
-              <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-              </svg> <a href="#">Contact Us</a></li>
+              <li><a class="fa fa-chevron-right" style="font-size:small;"></a>
+               <a href="#">Home</a></li>
+              <li><a class="fa fa-chevron-right" style="font-size:small;"></a>
+               <a href="#">About us</a></li>
+              <li><a class="fa fa-chevron-right" style="font-size:small;"></a>
+               <a href="#">Training & Placement</a></li>
+              <li><a class="fa fa-chevron-right" style="font-size:small;"></a>
+               <a href="#">Contact Us</a></li>
             </ul>
           </div>
 
@@ -100,16 +90,10 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; <strong>Datta Meghe College of Engineering</strong>. All Rights Reserved
+        &copy; <strong>Datta Meghe College of Engineering</strong>. All Rights Reserved <br>
       </div>
     </div>
   </footer>
-
-      <!--script src="js/vendor.bundle.base.js"></script>
-   
-    End custom js for this page-->
-  
-
   <!-- JS File -->
   <script src="js/dist/main.dev.js"></script>
 

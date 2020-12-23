@@ -39,6 +39,7 @@ html {
     z-index: 997;
     padding: 5px 0;
     background: white;
+    
   }
   
   #header.header-transparent {
@@ -137,9 +138,9 @@ html {
     color: #333333;
   }
   
-  .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-    /*color: #667eea;*/
-  }
+  /*.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+    /*color: #667eea;
+  }*/
   
   .nav-menu .drop-down > a:after {
     content: "\ea99";

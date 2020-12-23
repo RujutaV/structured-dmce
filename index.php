@@ -46,21 +46,7 @@ $(document).ready(function() {
 
 
 <body>
-
-
-
-  
-<!--script> 
-$(function(){
-  $("#navbar1").load("/navbar_and_footer/nav_landing.html"); 
-});
-</script> 
-<div id="navbar1"></div>
-
-  <script src="/bootstrap/jquery-3.5.1.js"></script>  -->
-  
-
-<!-- 
+<!--
 .----------------.  .----------------.  .----------------.  .----------------. 
 | .--------------. || .--------------. || .--------------. || .--------------. |
 | |  ________    | || | ____    ____ | || |     ______   | || |  _________   | |
@@ -95,6 +81,7 @@ $(function(){
           </div>
 
           <div class="carousel-item" style="background-image: url(images/2.jpg);">
+          <div class="image-overlay w-100 h-100 position-absolute"></div>
             <div class="carousel-container">
               <div class="container">
                 <!--<h2 class="animate__animated animate__fadeInDown">At vero eos et accusamus</h2>-->
@@ -105,6 +92,7 @@ $(function(){
           </div>
 
           <div class="carousel-item" style="background-image: url(images/3.jpg)">
+          <div class="image-overlay w-100 h-100 position-absolute"></div>
             <div class="carousel-container">
               <div class="container">
                 <!--<h2 class="animate__animated animate__fadeInDown">Temporibus autem quibusdam</h2>-->
@@ -115,6 +103,7 @@ $(function(){
           </div>
 
           <div class="carousel-item" style="background-image: url(images/4.jpg)">
+          <div class="image-overlay w-100 h-100 position-absolute"></div>
             <div class="carousel-container">
               <div class="container">
                 <!--<h2 class="animate__animated animate__fadeInDown">Nam libero tempore</h2>-->
@@ -125,6 +114,7 @@ $(function(){
           </div>
 
           <div class="carousel-item" style="background-image: url(images/5.jpg)">
+          <div class="image-overlay w-100 h-100 position-absolute"></div>
             <div class="carousel-container">
               <div class="container">
                 <!--<h2 class="animate__animated animate__fadeInDown">Magnam aliquam quaerat</h2>-->
@@ -137,15 +127,15 @@ $(function(){
         </div>
 
         <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+          <span class="fa fa-chevron-left" aria-hidden="true" style="font-size: x-large;"></span>
           <span class="sr-only">Previous</span>
         </a>
 
         <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+          <span class="fa fa-chevron-right" aria-hidden="true" style="font-size: x-large;"></span>
           <span class="sr-only">Next</span>
         </a>
-
+        
       </div>
     </div>
   </section><!-- End Intro Section -->
@@ -443,85 +433,78 @@ $el.hover(stop, anim);
 
     
 <!--About and pricipal's desk-->
+<header class="section-header">
+  <h3>About DMCE</h3>
+</header>
+<br>
+
 <div class="continer">
 <section class="view">
-
     <div class="row">
 
-      <div class="col-md-6">
-
-        <div class="d-flex flex-column justify-content-center align-items-center h-100">
-          <header class="section-header">
-          <h3>About DMCE</h3>
-        </header>
-          <h5 class="subheading font-weight"><p>Established in 1988 at Airoli, Navi Mumbai, Datta Meghe College of Engineering touched many innumerable milestones with unlimited credentials and accomplishments. The institute is NAAC accredited, approved by AICTE New Delhi, and recognized by DTE & Govt. of Maharashtra, and one of the most reputed institutes affiliated to the University of Mumbai. The overall intake of the institute t UG, PG, and PhD levels is 837 students in varied branches like Civil, Civil and Infrastructure, Mechanical, Computer, IT, Chemical and Electronics Engineering. The institute nurtures more than 3000 students annually. Highly qualified and experienced faculty is the backbone of the institute, they represent on national Bodies like Bureau of Indian Standards, Indian Society of Technical Education, IIIE....</p></h5>
+      <div class="col">
+        <div class="d-flex flex-column justify-content-center align-items-center ">
+          <h4 class="subheading font-weight">
+            <p>
+              Established in 1988 at Airoli, Navi Mumbai, Datta Meghe College of Engineering touched many innumerable milestones with unlimited credentials and accomplishments. The institute is NAAC accredited, approved by AICTE New Delhi, and recognized by DTE & Govt. of Maharashtra, and one of the most reputed institutes affiliated to the University of Mumbai. The overall intake of the institute t UG, PG, and PhD levels is 837 students in varied branches like Civil, Civil and Infrastructure, Mechanical, Computer, IT, Chemical and Electronics Engineering. The institute nurtures more than 3000 students annually. Highly qualified and experienced faculty is the backbone of the institute, they represent on national Bodies like Bureau of Indian Standards, Indian Society of Technical Education, IIIE....
+            </p>
+          </h4>
           <div class="mr-auto">
-        <button type="button" class="btn btn-lily btn-margin btn-rounded" style="margin-left: 280px;"><a href="" style="color: white;">Read More</a></button>
+        <button type="button" class="btn btn-lily btn-margin btn-rounded">
+          <a href="" style="color: white;">Read More</a>
+        </button>
           </div>
         </div>
+      </div><!--col end-->
 
-      </div>
-
-      <div class="col-md-6">
-
-        <div class="view">
-          <center><img src="images/about_us.png" class="img-fluid" alt="smaple age" style="height: 500px; width: 600px; margin-top: 50px; padding-top: 50px;"></center>
-          <div class="mask flex-center hm-gradient">
-          </div>
+      <div class="col">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <img src="images/about_us.png" class="img-fluid" alt="college image" style="height: 400px; width: 600px;">
+          <!--div class="mask flex-center hm-gradient"></div-->
         </div>
+      </div><!--col end-->
 
-      </div>
-
-    </div>
-
+    </div><!--row end-->
   </section>
+</div>
+<br>
 
+<!--principal's desk-->
+<header class="section-header">
+  <h3>Principal's Desk</h3>
+</header>
+<br>
 
-
-
-
-
-
-
+<div class="container">
    <section class="view">
+      <div class="row">
 
-    <div class="row">
-
-      <div class="col-md-6">
-
+      <div class="col">
         <div class="view">
-          <center><img src="images/principal.jpeg" class="img-fluid" alt="smaple age" style="height:400px ;margin-top: 50px; padding-top: 90px;"></center>
-          <div class="mask flex-center hm-gradient">
-          </div>
+          <img src="images/principal.jpeg" class="img-fluid" alt="smaple age" style="height:400px; width: 600px;">
+          <!--div class="mask flex-center hm-gradient"></div-->
         </div>
+      </div><!-- cold end-->
 
-      </div>
-
-
-      <div class="col-md-6">
-
-        <div class="d-flex flex-column justify-content-center align-items-center h-100">
-          <header class="section-header">
-          <h3>Principal's Desk</h3>
-        </header>
-          <h5 class="subheading font-weight"><p>
-
+      <div class="col">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <h4 class="subheading font-weight">
+            <p>
 The Endeavor of the institution over two and a half decades is to transform many of the young and bright learners into aspiring Engineers seeking challenging opportunities at global level. The institution has grown up in its intake capacity from under-graduate to post-graduate and further doctoral (Ph.D.) programs in various disciplines of Engineering education.
 We also nurture the intellectual growth of our students by providing knowledge as per the curriculum and beyond it, with the help of experienced faculty and experts from the industry. We are proud to produce the leaders in technology who serve the humanity through application and dissemination of knowledge along with the best Engineering practices.
-
 My best wishes to all the learners.
-</p></h5>
-          <div class="mr-auto">
-				<center><button type="button" class="btn btn-lily btn-margin btn-rounded"><a href="" style="color: white;">Read More</a></button></center>
+             </p>
+            </h4>
+          <div class="d-flex justify-content-center align-items-center">
+				     <button type="button" class="btn btn-lily btn-margin btn-rounded">
+               <a href="" style="color: white;">Read More</a></button>
           </div>
         </div>
-
-      </div>
+      </div><!-- cold end-->
 
     </div>
-
   </section>
-	</div>
+</div>
 
 <!--Our recruitors-->
 	      <div class="container-fluid" style="padding: 0 0;">
@@ -568,7 +551,7 @@ My best wishes to all the learners.
 	<br><br>
   <!-- JS Files -->
    <!-- inject:js -->
-    <script src="js/vendor.bundle.base.js"></script>
+    <script src="js/dist/vendor.bundle.base.dev.js"></script>
     <script src="js/dist/main.dev.js"></script>
   
     
