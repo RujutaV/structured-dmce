@@ -46,57 +46,61 @@
 
          <nav class="nav-menu d-none d-lg-block">
            <ul>
-             <li class="active"><a href="index.php">HOME</a></li>..
-             <li class="drop-down"><a href="">ABOUT US</a>
-               <ul>
-                 <li><a href="about_dmce.html">ABOUT DMCE</a></li>
-                 <li><a href="vision_mission.html">VISION & MISSION</a></li>
-                 <li><a href="amenities.html">CAMPUS AMMENITIES</a></li>
-                 <li><a href="bog.html">BOARD OF GOVERNORS</a></li>
-                 <li><a href="pd.html">FROM PRINCIPAL'S DESK</a></li>
-                 <li><a href="inf.html">INFRASTRUCTURE</a></li>
-                 <li><a href="md.html">MANDATORY DISCLOSURE</a></li>
-                 <li><a href="nirf.html">NIRF</a></li>
-                 <li><a href="aaa.html">AFFILATIONS AND APPROVALS</a></li>
-               </ul>
-             </li>
-              <li class="drop-down"><a href="">PROGRAMS</a>
-               <ul>
-                 <li><a href="#">UNDER GRADUATIONS (U.G)</a></li>
-                 <li><a href="#">POST GRADUATION (P.G)</a></li>
-                 <li><a href="#">DOCTRATE ADMISSIONS (P.HD)</a></li>
-               </ul>
-             </li>
-              <li class="drop-down"><a href="">DEPARTMENTS</a>
-               <ul>
-                 <li><a href="civil.html">CIVIL ENGINEERING</a></li>
-                 <li><a href="civil.html">CIVIL & INFRASTRUCTURE ENGINEERING</a></li>
-                 <li><a href="elec.html">ELECTRONICS ENGINEERING</a></li>
-                 <li><a href="comp.html">COMPUTER ENGINEERING</a></li>
-                 <li><a href="mech.html">MECHANICAL ENGINEERING</a></li>
-                 <li><a href="chem.html">CHEMICAL ENGINEERING</a></li>
-                 <li><a href="it.html">INFORMATION TECHNOLOGY</a></li>
-                 <li><a href="humanities.html">HUMANITIES & SCIENCE</a></li>
-               </ul>
-             </li>
-             <li class="drop-down"><a href="">STUDENTS</a>
-               <ul>
-                 <li><a href="#">EVENTS</a></li>
-                 <li><a href="#">E-CELL</a></li>
-                 <li><a href="csi.html">CSI</a></li>
-                 <li><a href="#">WOMEN DEVELOPMENT CELL</a></li>
-                 <li><a href="#">ALUMINI CELL</a></li>
-                 <li><a href="#">IPR</a></li>
-                 <li><a href="/students/">PLANNING & NOTES</a></li>
-               </ul>
-             </li>
-               <li class="drop-down"><a href="">LOGIN</a>
-               <ul>
-                 <li><a href="#">WEBMAIL LOGIN</a></li>
-                 <li><a href="#">ERP LOGIN</a></li>
-               </ul>
-             </li>
-			    <li><a href="#">PLACEMENTS</a></li>
+           <li class="active"><a href="index.html">HOME</a></li>
+              <li class="drop-down"><a href="">ABOUT US</a>
+                <ul>
+                  <li><a href="about_dmce.html">ABOUT DMCE</a></li>
+                  <li><a href="dmce-vision-mission.html">VISION & MISSION</a></li>
+                  <li><a href="amenities.html">CAMPUS AMMENITIES</a></li>
+                  <li><a href="board-of-governers.html">BOARD OF GOVERNORS</a></li>
+                  <li><a href="principal-desk.html">FROM PRINCIPAL'S DESK</a></li>
+                  <li><a href="infrastructure.html">INFRASTRUCTURE</a></li>
+                  <li><a href="mandatory-discolsure.html">MANDATORY DISCLOSURE</a></li>
+                  <li><a href="nirf.html">NIRF</a></li>
+                  <li><a href="naacaqar.html">NAAC and AQAR</a></li>
+                  <li><a href="affiliations-and-approvals.html">AFFILATIONS AND APPROVALS</a></li>
+                </ul>
+              </li>
+               <li class="drop-down"><a href="">PROGRAMS</a>
+                <ul>
+                  <li><a href="under_graduation_BE.html">UNDER GRADUATIONS (U.G)</a></li>
+                  <li><a href="post_graduation_ME.html">POST GRADUATION (P.G)</a></li>
+                  <li><a href="doctorate_PHD.html">DOCTRATE ADMISSIONS (P.HD)</a></li>
+                </ul>
+              </li>
+               <li class="drop-down"><a href="">DEPARTMENTS</a>
+                <ul>
+                  <li><a href="civil.html">CIVIL ENGINEERING</a></li>
+                  <li><a href="civil.html">CIVIL & INFRASTRUCTURE ENGINEERING</a></li>
+                  <li><a href="elec.html">ELECTRONICS ENGINEERING</a></li>
+                  <li><a href="comp.html">COMPUTER ENGINEERING</a></li>
+                  <li><a href="mech.html">MECHANICAL ENGINEERING</a></li>
+                  <li><a href="chem.html">CHEMICAL ENGINEERING</a></li>
+                  <li><a href="it.html">INFORMATION TECHNOLOGY</a></li>
+                  <li><a href="humanities.html">HUMANITIES & SCIENCE</a></li>
+                </ul>
+              </li>
+              <li class="drop-down"><a href="">STUDENTS</a>
+                <ul>
+                  <li><a href="#">EVENTS</a></li>
+                  <li><a href="#">E-CELL</a></li>
+                  <li><a href="#">IEEE</a></li>
+                  <li><a href="/students/csi/csi.html">CSI</a></li>
+                  <li><a href="#">GIT</a></li>
+                  
+                  <li><a href="#">WOMEN DEVELOPMENT CELL</a></li>
+                  <li><a href="#">ALUMINI CELL</a></li>
+                  <li><a href="#">IPR</a></li>
+                  <li><a href="#">PLANNING & NOTES</a></li>
+                </ul>
+              </li>
+              <li class="drop-down"><a href="">LOGIN</a>
+                <ul>
+                  <li><a href="http://email.dmce.ac.in/webmail/src/login.php">WEBMAIL LOGIN</a></li>
+                  <li><a href="http://services.dmce.ac.in/dmce/login.php">ERP LOGIN</a></li>
+                </ul>
+              </li>
+              <li><a href="placement.html">PLACEMENTS</a></li>
            </ul>
          </nav><!-- .nav-menu -->
        </div>
